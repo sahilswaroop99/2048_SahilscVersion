@@ -270,3 +270,13 @@ GameManager.prototype.tileMatchesAvailable = function () {
 GameManager.prototype.positionsEqual = function (first, second) {
   return first.x === second.x && first.y === second.y;
 };
+
+GameManager.prototype.newFeature = function () {
+  // Example feature: reset game button
+  var resetButton = document.createElement('button');
+  resetButton.innerHTML = "Reset Game";
+  resetButton.onclick = () => {
+    this.restart();
+  };
+  document.querySelector('.heading').appendChild(resetButton);
+};
