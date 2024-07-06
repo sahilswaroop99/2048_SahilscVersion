@@ -1,6 +1,5 @@
 # My 2048 Game
 
-This is a modified version of the [2048 Game](https://github.com/gabrielecirulli/2048) by Gabriele Cirulli.
 
 ## Modifications
 
