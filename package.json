@@ -4,7 +4,8 @@
   "description": "2048 game",
   "main": "index.html",
   "scripts": {
-    "build": "echo 'Building project...' && mkdir -p public && cp -R * public/ --parents"
+    "clean": "rm -rf public/*",
+    "build": "npm run clean && echo 'Building project...' && cp -R * public/ && rm -rf public/node_modules public/.git public/.gitignore public/package.json public/package-lock.json"
   },
   "keywords": [],
   "author": "",
