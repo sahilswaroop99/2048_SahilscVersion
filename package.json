@@ -1,0 +1,11 @@
+{
+  "name": "2048_sahilscversion",
+  "version": "1.0.0",
+  "description": "- Added a share button to share scores via different apps\r - Changed the styling and branding of the game",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
